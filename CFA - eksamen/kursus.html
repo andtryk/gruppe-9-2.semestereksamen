@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130426961-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'UA-130426961-1');
+	</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Center for Autisme</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <script type="text/javascript" src="js.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+<!-- Navigation -->
+<header>
+  <nav class="navbar">
+		<article id="logo">
+		<a href="index.html"><img src="logo.png" alt="logo"></a>
+		</article>
+		<article class="navigation">
+			<a href="kontakt.html">Kontakt</a>
+			<a href="om.html">Om os</a>
+		</article>
+		<span class="open-slide">
+		<a href="#" onclick="openSlideMenu()">
+        <span class="burger-bun-top"></span>
+        <span class="burger-filling"></span>
+        <span class="burger-bun-bot"></span>
+      </a>
+    </span>
+  </nav>
+</header>
+<section id="left-side-menu" class="left-nav">
+	<section class="left-nav-menu">
+		<a href="#"><img src="student.png"></a>
+		<a href="#"><img src="netvaerk.png"></a>
+		<a href="#"><img src="radgivning.png"></a>
+		<a href="#"><img src="forskning.png"></a>
+		<a href="kursus.html" onmouseover="openLeftSlideMenu()"><img src="kursus.png"></a>
+	</section>
+	<section id="kursus">
+		<a onmouseover="openKurser()">Kurser til pårørende samt fagpersoner</a>
+			<section id="kursusindhold">
+				<a href="kursus.html#gruppeforlob" onclick="closeKurser()">&#8594; Møde vedr. gruppeforløb for forældre til døtre med ASF i alderen 11-14 år</a><br>
+				<a href="kursus.html#kat-workshop"onclick="closeKurser()">&#8594; KAT-Workshop - Gør det lettere at tale om følelser - Bliv fortrolig med KAT-kassens nye værktøjer og den spændende KAT web-app</a><br>
+				<a href="kursus.html#pigermedasf"onclick="closeKurser()">&#8594; Kursus om piger med en ASF diagnose - for forældre og fagpersoner</a><br>
+				<a href="kursus.html#gruppeforlob"onclick="closeKurser()">&#8594; Temaaften om autismespektrumsforstyrrelse (ASF) - for bedsteforældre og andre pårørende</a><br>
+				<a href="kursus.html#gruppeforlob"onclick="closeKurser()">&#8594; Introkursus i Intensive Interaction og autisme</a><br>
+				<a href="kursus.html#gruppeforlob"onclick="closeKurser()">&#8594; Træningskursus i brug af Autisme Diagnostisk Interview - Revideret (ADI-R)</a><br>
+			</section>
+		<a href="#">Kurser til fagpersoner</a>
+		<a href="#">Undervisning</a>
+	</section>
+</section>
+  <section id="side-menu" class="side-nav">
+    <p class="btn-close" onclick="closeSlideMenu()">&times;</p>
+    <a href="#" onclick="closeSlideMenu()">Job & uddannelse</a>
+    <a href="#" onclick="closeSlideMenu()">Netværksgrupper</a>
+	<a href="#" onclick="closeSlideMenu()">Rådgivning & behandling</a>
+	<a href="#" onclick="closeSlideMenu()">Forskning & udvikling</a>
+	<a href="kursus.html" onclick="closeSlideMenu()">Kursus & undervisning</a>
+	<a href="om.html" onclick="closeSlideMenu()">Om os</a>
+	<a href="kontakt.html" onclick="closeSlideMenu()">Kontakt</a>
+  </section>
+<main>
+	<section id="kursustop">
+		<h1>Kursus til pårørende samt fagpersoner</h1>
+	</section>
+	<section id="gruppeforlob">
+		<article id="gruppeforlob-indhold">
+			<h2>Møde vedr. gruppeforløb for forældre til døtre med ASF i alderen 11-14 år</h2>
+			<p>Interesserede er velkomne til et par timer med drøftelse af behov og muligheder tirsdag den 28. maj 2019 kl. 19 – 21.
+					Arrangementet finder sted på Center for Autisme og gennemføres ved min. 8 tilmeldinger. Tilmelding senest den 23. maj 2019</p>
+			<p>Hvis der er nok interesse for ovenstående, vil netværksgruppen starte op på Center for Autisme til en fast månedlig pris, som vores øvrige netværksgrupper.</p>
+			<p>Man kunne forestille sig at gruppen arbejder videre i egne rammer, når den er veletableret. 
+					28. maj 2019 kl. 19.00-21.00</p>
+			<button id="gruppetilmeld">Tilmeld</button>
+		</article>
+	</section>
+	<section id="kat-workshop">
+		<h2>KAT-Workshop - Gør det lettere at tale om følelser - Bliv fortrolig med KAT-kassens nye værktøjer og den spændende KAT web-app</h2>
+		<section class="katbox">
+			<article id="kat-indhold">
+				<p>Formålet med kurset er at at kursusdeltagerne opnår indsigt i den nye KAT-kasses værktøjer og KAT-appens funktionalitet og ide, så de kan anvende begge værktøjer som fagperson eller hjemme i familien, når der er fokus på følelser og social kommunikation.</p>
+					<p>3. oktober 2019</p>
+			</article>
+			<article id="kat-img">
+				<img src="kat.png" alt="kat-workshop billede">
+			</article>
+		</section>
+		<button id="kattilmeld">Tilmeld</button>
+	</section>
+	<section id="pigermedasf">
+		<section class="katbox">
+			<article id="piger-img">
+				<img src="piger.png" alt="piger med asf billede">
+			</article>
+			<article id="pigermedasf-indhold">
+				<h1>Kursus om piger med en ASF diagnose - for forældre og fagpersoner</h1>
+				<p>Hvad skal vi særligt være opmærksomme på i forhold til piger med autisme, hvordan kan vi forstå deres verden og hvad kan være hjælpsomt i forhold til deres personlige og sociale udvikling? Piger med autisme bliver ofte diagnosticeret sent eller slet ikke. Det kan have fatale følger for pigerne og deres omgivelser, da de ikke får den rette støtte og forståelse. Vi ser ofte at pigerne får andre ledsagende psykiske forstyrrelser i form af spiseforstyrrelser, angst og depression.</p>
+				<p>10. oktober 2019</p>
+			</article>
+		</section>
+		<button id="pigermedasftilmeld">Tilmeld</button>
+	</section>
+</main>
+<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+<!-- Footer -->
+<footer>
+	<section id="certificeringer">
+		<h2>Certificeringer</h2>
+		<article id="certificeringerbillede">
+			<a href="https://erhvervsstyrelsen.dk/socialoekonomiske-virksomheder"><img src="rsv.png" alt="rsv logo"></a>
+			<a href="https://www.centerforautisme.dk/images/Fonden_Center_for_Autisme_ISAE_3000_2018_erklaering.pdf"><img src="revi.png" alt="revi logo"></a>
+		</article>
+	</section>
+	<section class="footertext">
+		<h2>Services</h2>
+		<a href="#">- Find vej</a>
+		<a href="#">- Om os</a>
+		<a href="#">- Nyhedsbrev</a>
+		<a href="#">- Boghandel</a>
+		<a href="#">- Artikler</a>
+	</section>
+	<section class="footertext">
+		<h2>Kontakt</h2>
+		<h3>Center for Autisme</h3>
+		<p>Herlev Hovedgade 199, 2730 Herlev</p>
+		<p>+45 44 98 23 55</p>
+		<p>Info@centerforautisme.dk</p>
+	</section>
+</footer>
+  <script>
+    function openSlideMenu(){
+      document.getElementById('side-menu').style.width = '250px';
+    }
+
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width = '0';
+    }
+		function openLeftSlideMenu(){
+			document.getElementById('kursus').style.display  = 'flex';
+		}
+		function openKurser(){
+			document.getElementById('kursusindhold').style.display  = 'block';
+		}
+		function closeKurser(){
+			document.getElementById('kursusindhold').style.display  = 'none';
+			document.getElementById('kursus').style.display  = 'none';
+		}
+	$(document).ready(function() {
+    $(window).scroll( function(){
+        $('.left-nav').each( function(i){
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            if( bottom_of_window > bottom_of_object ){
+                $(this).animate({'opacity':'1'},1000);
+						}
+					}); 
+				});
+			});
+	$(window).scroll(function() {
+			if ($(this).scrollTop() >= 100) {        // If page is scrolled more than 100px
+					$('#return-to-top').fadeIn(200);    // Fade in the arrow
+			} else {
+					$('#return-to-top').fadeOut(200);   // Else fade out the arrow
+			}
+	});
+	$('#return-to-top').click(function() {      // When arrow is clicked
+			$('body,html').animate({
+					scrollTop : 0                       // Scroll to top of body
+			}, 500);
+	});
+  </script>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+</script>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+</html>
